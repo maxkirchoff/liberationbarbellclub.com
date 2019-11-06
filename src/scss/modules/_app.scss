@@ -1,0 +1,131 @@
+.site-container {
+  section {
+    position: relative;
+
+    .logo {
+      background-color: $base;
+      width: 100%;
+      margin: 0;
+      padding: 15vh 0;
+
+      @media only screen and (min-width: $sm-min-width) {
+        margin-left: 15%;
+        width: 85%;
+        padding: 12vw 0;
+      }
+
+      img {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+
+        @media only screen and (min-width: $sm-min-width) {
+          width: 50%;
+          margin-top: -2%;
+        }
+      }
+    }
+
+    .triangles {
+      background-image: url('/assets/img/arrows_blue.png');
+      background-repeat: repeat;
+      background-size: 33.33vw;
+      height: 86vw;
+      width: 100%;
+      @media only screen and (min-width: $sm-min-width) {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 15%;
+        background-size: 100%;
+        height: 100%;
+      }
+
+    }
+
+    .email-signup {
+      background: #fff;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 12.5%;
+
+      @media only screen and (min-width: $sm-min-width) {
+        margin-left: 15%;
+        width: 85%;
+      }
+
+      p {
+        margin: 0;
+        padding-top: 15vw;
+        @media only screen and (min-width: $sm-min-width) {
+          width: 80%;
+          margin: 0 auto;
+          text-align: center;
+          padding-top: 8vw;
+        }
+      }
+
+      form {
+        font-size: 5vw;
+        padding: 15vw 0;
+        @media only screen and (min-width: $sm-min-width) {
+          font-size: 1.5vw;
+          width: 80%;
+          margin: 0 auto;
+          padding: 5vw 0 14vw;
+        }
+
+        input {
+          text-align: center;
+          padding: 4vw;
+          text-transform: uppercase;
+          background: #fff;
+          border: 2px solid $orange;
+          display: block;
+          width: 100%;
+          color: $blue;
+          border-radius: 0;
+          @media only screen and (min-width: $sm-min-width) {
+            float: left;
+            width: 75%;
+            padding: 1vw 2vw;
+          }
+
+          &[type=submit] {
+            background: $orange;
+            color: #000;
+            font-weight:500;
+            @media only screen and (min-width: $sm-min-width) {
+              width: 25%;
+            }
+          }
+        }
+      }
+    }
+
+    &.patterns {
+      height: 60vh;
+      width: 100%;
+
+      background-image: url('/assets/img/lbc_pattern-black.png');
+      background-size: 55%;
+
+      @media only screen and (min-width: $sm-min-width) {
+        background-size: 30%;
+        height: 60vw;
+      }
+    }
+  }
+
+}
+footer {
+  background: #111;
+  color: #fff;
+  font-size: 3vw;
+  text-align: center;
+  padding: 2vw;
+  @media only screen and (min-width: $sm-min-width) {
+    font-size: 1.5vw;
+  }
+}

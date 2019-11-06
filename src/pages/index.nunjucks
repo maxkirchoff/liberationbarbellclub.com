@@ -1,0 +1,35 @@
+<!-- index.nunjucks -->
+
+{% set pageID = 'home' %}
+
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<section class="main-heading">
+  <div class="logo">
+    <img src="/assets/img/logo-liberationbarbellclub.svg">
+  </div>
+  <div class="triangles"></div>
+  <div class="email-signup">
+    <p>Sign up to get updates as we complete the gym build out, release information on membership and announce exclusive launch events.</p>
+    <div id="mc_embed_signup">
+    <form action="https://liberationbarbellclub.us20.list-manage.com/subscribe/post?u=61e96e6b91c81f82ef983dcc8&amp;id=cf2029c689" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div class="mc-field-group">
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email">
+      </div>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_61e96e6b91c81f82ef983dcc8_cf2029c689" tabindex="-1" value="">
+      </div>
+      <div>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </div>
+    </form>
+    </div>
+  </div>
+</section>
+<section class="patterns">
+
+</section>
+
+
+{% endblock %}

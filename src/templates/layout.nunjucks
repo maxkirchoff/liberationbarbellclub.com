@@ -1,0 +1,74 @@
+{% set pageID = pageID | default('') %}
+
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Liberation Barbell Club - Southeast Austin, Texas</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="http://liberationbarbellclub.com">
+    <meta name="twitter:title" content="Liberation Barbell Club">
+    <meta name="twitter:description" content="Live, Laugh, Lift. Liberation Barbell Club is a new gym in Southeast Austin, Texas.">
+    <meta name="twitter:creator" content="@liberationbc">
+    <!-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="http://liberationbarbellclub.com/assets/img/og.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Liberation Barbell Club" />
+    <meta property="og:url" content="http://liberationbarbellclub.com/" />
+    <meta property="og:image" content="http://liberationbarbellclub.com/assets/img/og.png" />
+    <meta property="og:description" content="Live, Laugh, Lift. Liberation Barbell Club is a new gym in Southeast Austin, Texas." />
+    <meta property="og:site_name" content="Liberation Barbell Club" />
+
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link href="//ajax.googleapis.com" rel="dns-prefetch">
+    <link href="assets/css/style.min.css?v=1.2" rel="stylesheet">
+
+    <script src="assets/components/modernizr/modernizr.js"></script>
+  </head>
+  <body id="{{ pageID }}">
+
+    <div class="site-container">
+
+
+      <!-- {% include "partials/header.nunjucks" %} -->
+
+
+      <main class="main" role="main">
+        {% block content %}
+        {% endblock %}
+      </main>
+
+      <aside class="sidebar" role="complementary">
+
+      </aside>
+
+      <footer class="footer" role="contentinfo">
+        © Liberation Barbell Club <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script> — All Rights Reserved.
+      </footer>
+
+    </div>
+
+    <script src="assets/components/jquery/jquery.min.js"></script>
+    <script src="assets/js/scripts.min.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149902461-1"></script>
+    <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'UA-149902461-1');
+    </script>
+
+  </body>
+</html>

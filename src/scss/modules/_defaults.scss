@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+}
+
+body {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-size: 6.5vw;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #111;
+  background: $base;
+  @media only screen and (min-width: $sm-min-width) {
+    font-size: 2vw;
+  }
+}
+body,html{
+	min-height: 100vh;
+}
+
+input::placeholder
+{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+}
