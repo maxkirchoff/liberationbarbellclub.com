@@ -1,6 +1,59 @@
 .site-container {
+
+  p {
+    font-size: 5vw;
+    @media only screen and (min-width: $sm-min-width) {
+      font-size: 3vw;
+    }
+    @media only screen and (min-width: $md-min-width) {
+      font-size: 1.8vw;
+    }
+  }
+
+  input, .button {
+    text-align: center;
+    padding: 4vw;
+    text-transform: uppercase;
+    background: #fff;
+    border: 2px solid $orange;
+    display: block;
+    width: 100%;
+    color: $blue;
+    border-radius: 0;
+    font-size: 6vw;
+    @media only screen and (min-width: $sm-min-width) {
+      font-size: 3vw;
+      padding: 1vw 2vw;
+    }
+    @media only screen and (min-width: $md-min-width) {
+      font-size: 1.8vw;
+    }
+
+    &[type=submit], &.button {
+      background: $orange;
+      color: #000;
+      font-weight:500;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+
   section {
     position: relative;
+    margin: 10vw 12.5% 0;
+    width: 75%;
+
+    @media only screen and (min-width: $sm-min-width) {
+    }
+    @media only screen and (min-width: $md-min-width) {
+      margin: 5vw 12.5% 0;
+
+    }
 
     .logo {
       background-color: $base;
@@ -9,50 +62,121 @@
       padding: 15vh 0;
 
       @media only screen and (min-width: $sm-min-width) {
-        margin-left: 15%;
-        width: 85%;
-        padding: 12vw 0;
+        margin: 8vw auto 0;
+        width: 40%;
+        padding: 0;
       }
 
       img {
         display: block;
-        width: 70%;
         margin: 0 auto;
 
         @media only screen and (min-width: $sm-min-width) {
-          width: 50%;
+          width: 100%;
           margin-top: -2%;
+
         }
       }
     }
 
-    .triangles {
-      background-image: url('/assets/img/arrows_blue.png');
-      background-repeat: repeat;
-      background-size: 33.33vw;
-      height: 86vw;
-      width: 100%;
-      @media only screen and (min-width: $sm-min-width) {
+    &.video {
+      position: relative;
+      margin: 10vw 12.5% 0;
+      width: 75%;
+      height: 0;
+      padding-bottom: 56.25%;
+      iframe {
         position: absolute;
-        left: 0;
         top: 0;
-        bottom: 0;
-        width: 15%;
-        background-size: 100%;
+        left: 0;
+        width: 100%;
         height: 100%;
       }
-
     }
 
-    .email-signup {
+    &.founding-membership {
+      color: #fff;
+
+      > h1 {
+        font-size: 8vw;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 0;
+
+        @media only screen and (min-width: $sm-min-width) {
+          font-size: 5vw;
+          margin-top: 0;
+        }
+      }
+
+      p {
+        margin: 3vw 0 0;
+        @media only screen and (min-width: $sm-min-width) {
+        }
+      }
+
+      .row {
+
+        @media only screen and (min-width: $md-min-width) {
+          display: flex;
+          flex-direction: row-reverse;
+          margin-top: 3vw;
+        }
+        .photos {
+          margin-bottom: 15vw;
+          @media only screen and (min-width: $md-min-width) {
+            width: 47.5%;
+            margin-bottom: 0;
+          }
+          .photo {
+            margin: 10vw 0;
+            @media only screen and (min-width: $md-min-width) {
+              margin: 0 0 5vw;
+            }
+
+          }
+        }
+        .text {
+          @media only screen and (min-width: $md-min-width) {
+            width: 47.5%;
+            margin-left: 5%;
+          }
+          h2 {
+            line-height: 1;
+            color: $blue;
+            margin: 3vw 0 0;
+            font-size: 5vw;
+            @media only screen and (min-width: $sm-min-width) {
+              font-size: 3vw;
+            }
+            @media only screen and (min-width: $md-min-width) {
+              margin-top: 0;
+            }
+          }
+        }
+        .button {
+          margin: 10vw 0 20vw;
+          @media only screen and (min-width: $sm-min-width) {
+            margin: 5vw 0 10vw;
+          }
+        }
+      }
+    }
+
+    &.email-signup {
       background: #fff;
       width: 100%;
       margin: 0 auto;
       padding: 0 12.5%;
 
       @media only screen and (min-width: $sm-min-width) {
-        margin-left: 15%;
-        width: 85%;
+
+        width: 100%;
+      }
+
+      @media only screen and (min-width: $md-min-width) {
+        display: flex;
+        flex-direction: row-reverse;
       }
 
       p {
@@ -64,6 +188,19 @@
           text-align: center;
           padding-top: 8vw;
         }
+        @media only screen and (min-width: $md-min-width) {
+          width: 45%;
+          text-align: left;
+          padding: 10vw 0;
+          margin-top: -0.5%;
+        }
+      }
+
+      #mc_embed_signup {
+        @media only screen and (min-width: $md-min-width) {
+          width: 45%;
+          margin-right: 10%;
+        }
       }
 
       form {
@@ -73,55 +210,41 @@
           font-size: 1.5vw;
           width: 80%;
           margin: 0 auto;
-          padding: 5vw 0 14vw;
+          padding: 5vw 0 10vw;
+        }
+        @media only screen and (min-width: $md-min-width) {
+          padding: 10vw 0;
         }
 
-        input {
-          text-align: center;
-          padding: 4vw;
-          text-transform: uppercase;
-          background: #fff;
-          border: 2px solid $orange;
-          display: block;
-          width: 100%;
-          color: $blue;
-          border-radius: 0;
-          @media only screen and (min-width: $sm-min-width) {
-            float: left;
-            width: 75%;
-            padding: 1vw 2vw;
-          }
 
-          &[type=submit] {
-            background: $orange;
-            color: #000;
-            font-weight:500;
-            @media only screen and (min-width: $sm-min-width) {
-              width: 25%;
-            }
+        &[type=submit], &.button {
+          @media only screen and (min-width: $sm-min-width) {
+            width: 25%;
           }
         }
       }
     }
 
     &.patterns {
-      height: 60vh;
+      height: 30vh;
       width: 100%;
+      margin: 0 0 0;
+      padding-top: 15vw;
 
-      background-image: url('/assets/img/lbc_pattern-black.png');
+      background-image: url('/assets/img/pattern-blue.png');
       background-size: 55%;
 
       @media only screen and (min-width: $sm-min-width) {
         background-size: 30%;
-        height: 60vw;
+        height: 20vw;
       }
     }
   }
 
 }
 footer {
-  background: #111;
-  color: #fff;
+  background: #fff;
+  color: #111;
   font-size: 3vw;
   text-align: center;
   padding: 2vw;

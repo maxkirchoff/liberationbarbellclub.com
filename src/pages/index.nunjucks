@@ -9,26 +9,52 @@
   <div class="logo">
     <img src="/assets/img/logo-liberationbarbellclub.svg">
   </div>
-  <div class="triangles"></div>
-  <div class="email-signup">
-    <p>Sign up to get updates as we complete the gym build out, release information on membership and announce exclusive launch events.</p>
-    <div id="mc_embed_signup">
-    <form action="https://liberationbarbellclub.us20.list-manage.com/subscribe/post?u=61e96e6b91c81f82ef983dcc8&amp;id=cf2029c689" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div class="mc-field-group">
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email">
+</section>
+<section class="video">
+  <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Za9W0z1nkIE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<section class="founding-membership">
+  <h1>Become a Founding Member</h1>
+
+  <div class="row">
+    <div class="text">
+      <h2>$1,000</h2>
+      <p>We believe that strength training and fitness should be fun, accessible and inclusive to everyone.</p>
+      <p>The Founding Membership is a unique opportunity to be a core part of our community as someone who promotes our shared values.</p>
+      <p>Founding Members will have access to the gym from when we open in December through the entirety of 2020. Additionally, we will have some special events and a surprise "thank you!" at the Grand Opening party.</p>
+      <p>This isn't just a pre-paid year of gym membership, it's a pledge to help us build this awesome community!</p>
+      <a class="button" href="https://yptejn.pushpress.com/open/subscribe/t177">Join Now</a>
+
+    </div>
+    <div class="photos">
+      <div class="photo">
+        <img src="/assets/img/future-home.jpg">
       </div>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_61e96e6b91c81f82ef983dcc8_cf2029c689" tabindex="-1" value="">
+      <div class="photo">
+        <img src="/assets/img/laurie-maybe.jpg">
       </div>
-      <div>
-        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-      </div>
-    </form>
     </div>
   </div>
 </section>
 <section class="patterns">
-
+</section>
+<section class="email-signup">
+  <p>Sign up to get updates as we complete the gym build out, release information on membership and announce exclusive launch events.</p>
+  <div id="mc_embed_signup">
+  <form action="https://liberationbarbellclub.us20.list-manage.com/subscribe/post?u=61e96e6b91c81f82ef983dcc8&amp;id=cf2029c689" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div class="mc-field-group">
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email">
+    </div>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+      <input type="text" name="b_61e96e6b91c81f82ef983dcc8_cf2029c689" tabindex="-1" value="">
+    </div>
+    <div>
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+    </div>
+  </form>
+  </div>
+</section>
+<section class="patterns">
 </section>
 
 

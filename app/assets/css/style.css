@@ -460,8 +460,51 @@ textarea {
   color: #fff;
   text-shadow: none; }
 
+.site-container p {
+  font-size: 5vw; }
+  @media only screen and (min-width: 768px) {
+    .site-container p {
+      font-size: 3vw; } }
+  @media only screen and (min-width: 1024px) {
+    .site-container p {
+      font-size: 1.8vw; } }
+
+.site-container input, .site-container .button {
+  text-align: center;
+  padding: 4vw;
+  text-transform: uppercase;
+  background: #fff;
+  border: 2px solid #FF6A31;
+  display: block;
+  width: 100%;
+  color: #34CFFF;
+  border-radius: 0;
+  font-size: 6vw; }
+  @media only screen and (min-width: 768px) {
+    .site-container input, .site-container .button {
+      font-size: 3vw;
+      padding: 1vw 2vw; } }
+  @media only screen and (min-width: 1024px) {
+    .site-container input, .site-container .button {
+      font-size: 1.8vw; } }
+  .site-container input[type=submit], .site-container input.button, .site-container .button[type=submit], .site-container .button.button {
+    background: #FF6A31;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none; }
+
+.site-container img {
+  max-width: 100%;
+  width: 100%; }
+
 .site-container section {
-  position: relative; }
+  position: relative;
+  margin: 10vw 12.5% 0;
+  width: 75%; }
+  @media only screen and (min-width: 1024px) {
+    .site-container section {
+      margin: 5vw 12.5% 0; } }
   .site-container section .logo {
     background-color: #111;
     width: 100%;
@@ -469,94 +512,142 @@ textarea {
     padding: 15vh 0; }
     @media only screen and (min-width: 768px) {
       .site-container section .logo {
-        margin-left: 15%;
-        width: 85%;
-        padding: 12vw 0; } }
+        margin: 8vw auto 0;
+        width: 40%;
+        padding: 0; } }
     .site-container section .logo img {
       display: block;
-      width: 70%;
       margin: 0 auto; }
       @media only screen and (min-width: 768px) {
         .site-container section .logo img {
-          width: 50%;
+          width: 100%;
           margin-top: -2%; } }
-  .site-container section .triangles {
-    background-image: url("/assets/img/arrows_blue.png");
-    background-repeat: repeat;
-    background-size: 33.33vw;
-    height: 86vw;
-    width: 100%; }
-    @media only screen and (min-width: 768px) {
-      .site-container section .triangles {
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        width: 15%;
-        background-size: 100%;
-        height: 100%; } }
-  .site-container section .email-signup {
+  .site-container section.video {
+    position: relative;
+    margin: 10vw 12.5% 0;
+    width: 75%;
+    height: 0;
+    padding-bottom: 56.25%; }
+    .site-container section.video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  .site-container section.founding-membership {
+    color: #fff; }
+    .site-container section.founding-membership > h1 {
+      font-size: 8vw;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 768px) {
+        .site-container section.founding-membership > h1 {
+          font-size: 5vw;
+          margin-top: 0; } }
+    .site-container section.founding-membership p {
+      margin: 3vw 0 0; }
+    @media only screen and (min-width: 1024px) {
+      .site-container section.founding-membership .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+        margin-top: 3vw; } }
+    .site-container section.founding-membership .row .photos {
+      margin-bottom: 15vw; }
+      @media only screen and (min-width: 1024px) {
+        .site-container section.founding-membership .row .photos {
+          width: 47.5%;
+          margin-bottom: 0; } }
+      .site-container section.founding-membership .row .photos .photo {
+        margin: 10vw 0; }
+        @media only screen and (min-width: 1024px) {
+          .site-container section.founding-membership .row .photos .photo {
+            margin: 0 0 5vw; } }
+    @media only screen and (min-width: 1024px) {
+      .site-container section.founding-membership .row .text {
+        width: 47.5%;
+        margin-left: 5%; } }
+    .site-container section.founding-membership .row .text h2 {
+      line-height: 1;
+      color: #34CFFF;
+      margin: 3vw 0 0;
+      font-size: 5vw; }
+      @media only screen and (min-width: 768px) {
+        .site-container section.founding-membership .row .text h2 {
+          font-size: 3vw; } }
+      @media only screen and (min-width: 1024px) {
+        .site-container section.founding-membership .row .text h2 {
+          margin-top: 0; } }
+    .site-container section.founding-membership .row .button {
+      margin: 10vw 0 20vw; }
+      @media only screen and (min-width: 768px) {
+        .site-container section.founding-membership .row .button {
+          margin: 5vw 0 10vw; } }
+  .site-container section.email-signup {
     background: #fff;
     width: 100%;
     margin: 0 auto;
     padding: 0 12.5%; }
     @media only screen and (min-width: 768px) {
-      .site-container section .email-signup {
-        margin-left: 15%;
-        width: 85%; } }
-    .site-container section .email-signup p {
+      .site-container section.email-signup {
+        width: 100%; } }
+    @media only screen and (min-width: 1024px) {
+      .site-container section.email-signup {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; } }
+    .site-container section.email-signup p {
       margin: 0;
       padding-top: 15vw; }
       @media only screen and (min-width: 768px) {
-        .site-container section .email-signup p {
+        .site-container section.email-signup p {
           width: 80%;
           margin: 0 auto;
           text-align: center;
           padding-top: 8vw; } }
-    .site-container section .email-signup form {
+      @media only screen and (min-width: 1024px) {
+        .site-container section.email-signup p {
+          width: 45%;
+          text-align: left;
+          padding: 10vw 0;
+          margin-top: -0.5%; } }
+    @media only screen and (min-width: 1024px) {
+      .site-container section.email-signup #mc_embed_signup {
+        width: 45%;
+        margin-right: 10%; } }
+    .site-container section.email-signup form {
       font-size: 5vw;
       padding: 15vw 0; }
       @media only screen and (min-width: 768px) {
-        .site-container section .email-signup form {
+        .site-container section.email-signup form {
           font-size: 1.5vw;
           width: 80%;
           margin: 0 auto;
-          padding: 5vw 0 14vw; } }
-      .site-container section .email-signup form input {
-        text-align: center;
-        padding: 4vw;
-        text-transform: uppercase;
-        background: #fff;
-        border: 2px solid #FF6A31;
-        display: block;
-        width: 100%;
-        color: #34CFFF;
-        border-radius: 0; }
-        @media only screen and (min-width: 768px) {
-          .site-container section .email-signup form input {
-            float: left;
-            width: 75%;
-            padding: 1vw 2vw; } }
-        .site-container section .email-signup form input[type=submit] {
-          background: #FF6A31;
-          color: #000;
-          font-weight: 500; }
-          @media only screen and (min-width: 768px) {
-            .site-container section .email-signup form input[type=submit] {
-              width: 25%; } }
+          padding: 5vw 0 10vw; } }
+      @media only screen and (min-width: 1024px) {
+        .site-container section.email-signup form {
+          padding: 10vw 0; } }
+      @media only screen and (min-width: 768px) {
+        .site-container section.email-signup form[type=submit], .site-container section.email-signup form.button {
+          width: 25%; } }
   .site-container section.patterns {
-    height: 60vh;
+    height: 30vh;
     width: 100%;
-    background-image: url("/assets/img/lbc_pattern-black.png");
+    margin: 0 0 0;
+    padding-top: 15vw;
+    background-image: url("/assets/img/pattern-blue.png");
     background-size: 55%; }
     @media only screen and (min-width: 768px) {
       .site-container section.patterns {
         background-size: 30%;
-        height: 60vw; } }
+        height: 20vw; } }
 
 footer {
-  background: #111;
-  color: #fff;
+  background: #fff;
+  color: #111;
   font-size: 3vw;
   text-align: center;
   padding: 2vw; }
