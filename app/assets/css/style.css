@@ -527,7 +527,7 @@ textarea {
     margin: 10vw 12.5% 0;
     width: 75%;
     height: 0;
-    padding-bottom: 56.25%; }
+    padding-bottom: 42.1875%; }
     .site-container section.video iframe {
       position: absolute;
       top: 0;
@@ -633,6 +633,48 @@ textarea {
       @media only screen and (min-width: 768px) {
         .site-container section.email-signup form[type=submit], .site-container section.email-signup form.button {
           width: 25%; } }
+  .site-container section.swag {
+    margin: 0;
+    padding: 10vw 5%;
+    width: 100%;
+    background: #fff; }
+    @media only screen and (min-width: 1024px) {
+      .site-container section.swag {
+        padding: 5vw 5% 0; } }
+    @media only screen and (min-width: 1500px) {
+      .site-container section.swag {
+        padding: 5vw 12.5% 0; } }
+    .site-container section.swag h1 {
+      font-size: 10vw;
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 15vw; }
+      @media only screen and (min-width: 1024px) {
+        .site-container section.swag h1 {
+          font-size: 6.25vw;
+          margin-bottom: 5vw; } }
+    @media only screen and (min-width: 1024px) {
+      .site-container section.swag .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row; } }
+    .site-container section.swag .row .product {
+      width: 80%;
+      margin: 10vw auto 15vw;
+      text-align: center; }
+      @media only screen and (min-width: 1024px) {
+        .site-container section.swag .row .product {
+          width: 30%;
+          margin: 0 auto 10vw; } }
+      .site-container section.swag .row .product h3 {
+        margin: 0; }
+      .site-container section.swag .row .product .button {
+        margin-top: 5vw; }
+        @media only screen and (min-width: 1024px) {
+          .site-container section.swag .row .product .button {
+            width: 60%;
+            margin: 5vw auto 0; } }
   .site-container section.patterns {
     height: 30vh;
     width: 100%;

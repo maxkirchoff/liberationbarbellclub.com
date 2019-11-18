@@ -14,7 +14,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="http://liberationbarbellclub.com">
     <meta name="twitter:title" content="Liberation Barbell Club">
-    <meta name="twitter:description" content="Live, Laugh, Lift. Liberation Barbell Club is a new gym in Southeast Austin, Texas.">
+    <meta name="twitter:description" content="Live, Laugh, Lift. Liberation Barbell Club is a strength training gym in Southeast Austin, Texas.">
     <meta name="twitter:creator" content="@liberationbc">
     <!-- Twitter Summary card images must be at least 120x120px -->
     <meta name="twitter:image" content="http://liberationbarbellclub.com/assets/img/og.png">
@@ -23,12 +23,12 @@
     <meta property="og:title" content="Liberation Barbell Club" />
     <meta property="og:url" content="http://liberationbarbellclub.com/" />
     <meta property="og:image" content="http://liberationbarbellclub.com/assets/img/og.png" />
-    <meta property="og:description" content="Live, Laugh, Lift. Liberation Barbell Club is a new gym in Southeast Austin, Texas." />
+    <meta property="og:description" content="Live, Laugh, Lift. Liberation Barbell Club is a strength training gym in Southeast Austin, Texas." />
     <meta property="og:site_name" content="Liberation Barbell Club" />
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//ajax.googleapis.com" rel="dns-prefetch">
-    <link href="assets/css/style.min.css?v=1.2" rel="stylesheet">
+    <link href="assets/css/style.min.css?v=2.1" rel="stylesheet">
 
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>

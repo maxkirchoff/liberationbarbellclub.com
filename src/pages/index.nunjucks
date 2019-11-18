@@ -38,6 +38,55 @@
 </section>
 <section class="patterns">
 </section>
+<section class="swag" id="swag">
+  <h1>Wear Your Support</h1>
+  <div class="row products">
+    <div class="product">
+      <div class="image">
+        <img src="/assets/img/t-shirt.jpg">
+      </div>
+      <h3 class="title">
+        LBC T-shirt
+      </h3>
+      <div class="price">
+        $25
+      </div>
+      <div class="buy-now">
+        <a class="button" href="https://yptejn.pushpress.com/open/purchase/prd_81a96f9edcc59d">Buy now</a>
+      </div>
+    </div>
+    <div class="product">
+      <div class="image">
+        <img src="/assets/img/tank.jpg">
+      </div>
+      <h3 class="title">
+        LBC Racerback Tank
+      </h3>
+      <div class="price">
+        $25
+      </div>
+      <div class="buy-now">
+        <a class="button" href="https://yptejn.pushpress.com/open/purchase/prd_f4ff2649e1775f">Buy now</a>
+      </div>
+    </div>
+    <div class="product">
+      <div class="image">
+        <img src="/assets/img/crop-top.jpg">
+      </div>
+      <h3 class="title">
+        LBC Crop Top
+      </h3>
+      <div class="price">
+        $25
+      </div>
+      <div class="buy-now">
+        <a class="button" href="https://yptejn.pushpress.com/open/purchase/prd_0e6b5969176475">Buy now</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="patterns">
+</section>
 <section class="email-signup">
   <p>Sign up to get updates as we complete the gym build out, release information on membership and announce exclusive launch events.</p>
   <div id="mc_embed_signup">
